@@ -60,9 +60,13 @@ body {
     background: url(bg-works1b.png);
     height: 786px;
 }
-#works2 {
-    background: url(bg-works2.png);
-    height: 1518px;
+#works2a {
+    background: url(bg-works2a.png);
+    height: 610px;
+}
+#works2b {
+    background: url(bg-works2b.png);
+    height: 940px;
 }
 #works3a {
     background: url(bg-works3a.png);
@@ -408,7 +412,6 @@ body {
     text-justify: inter-word;
     justify-content: space-between;
     position: absolute;
-    margin-top: 60px;
     margin-left: 135px;
 }
 .pouch h2 {
@@ -427,7 +430,7 @@ body {
     padding: 20px;
 }
 .pouch img {
-    margin-top: 130px;
+    margin-top: 70px;
 }
 .personal h1 {
     font-family: "Itim", serif;
@@ -445,7 +448,7 @@ body {
 }
 .zurarts img {
     max-width: 800px;
-    margin: 30px;
+    margin: 20px;
 }
 
 .mySlides1 {
