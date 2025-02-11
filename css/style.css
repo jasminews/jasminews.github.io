@@ -72,6 +72,14 @@ body {
     background: url(bg-works3b.png);
     height: 1530px;
 }
+#c-part1 {
+    background: url(bg-contact1.png);
+    height: 1010px;
+}
+#c-part2 {
+    background: url(bg-contact2.png);
+    height: 862px;
+}
 
 .button {
     cursor: pointer;
@@ -116,6 +124,23 @@ body {
 }
 .disc a:hover {
     color: #fb7e93;
+}
+
+.notice h2 {
+    color: #5991a1;
+    font-family: "Itim", serif;
+    font-size: 24px;
+    text-align: justify;
+    margin: 30px 0 0 150px;
+}
+.notice h2 a:link {
+    color: #e0c28e;
+}
+.notice h2 a:visited {
+    color: #fb7e93;;
+}
+.notice h2 a:hover {
+    color: #aee1dd;
 }
 
 .return {
@@ -169,6 +194,17 @@ body {
 }
 .sns img {
     max-width: 100px;
+}
+.sns-c {
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    margin-left: 460px;
+}
+.sns-c img {
+    max-width: 90px;
+    margin: 0 12px;
 }
 
 .text-p {
@@ -267,7 +303,7 @@ body {
     width: auto;
     padding: 18px;
     color: #b5e8e4;
-    background-color: #5d68bd;
+    background-color: #5d69bd;
     font-weight: bold;
     font-size: 22px;
     border-radius: 20px;
@@ -319,7 +355,7 @@ body {
 
 #works1a h1 {
     font-family: "Itim", serif;
-    color: #5d69bd;
+    color: #5991a1;
     font-size: 44px;
     text-align: justify;
     text-justify: inter-word;
@@ -330,7 +366,7 @@ body {
 }
 #works1b h1 {
     font-family: "Itim", serif;
-    color: #5d69bd;
+    color: #5991a1;
     font-size: 44px;
     text-align: justify;
     text-justify: inter-word;
@@ -353,12 +389,12 @@ body {
 
 .comm h1 {
     font-family: "Itim", serif;
-    color: #5d69bd;
+    color: #fff496;
     font-size: 44px;
     text-align: justify;
     text-justify: inter-word;
     justify-content: space-between;
-    padding-top: 170px;
+    padding-top: 180px;
     margin-left: 135px;
 }
 .pouch {
@@ -395,7 +431,7 @@ body {
 }
 .personal h1 {
     font-family: "Itim", serif;
-    color: #5d69bd;
+    color: #e48888;
     font-size: 44px;
     text-align: justify;
     text-justify: inter-word;
@@ -427,8 +463,8 @@ body {
     right: 0;
     width: 720px;
     margin: auto;
-    -webkit-filter: drop-shadow(2px 2px 2px #5d68bd);
-    filter: drop-shadow(5px 5px 5px #5d68bd);
+    -webkit-filter: drop-shadow(2px 2px 2px #5d69bd);
+    filter: drop-shadow(5px 5px 5px #5d689bd);
 }
 .mySlides2 img  {
     position: absolute;
@@ -442,7 +478,7 @@ body {
 }
 .slideshow-container3 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .webs {
     text-align: center;
@@ -461,17 +497,31 @@ body {
     transform: scale(1.05);
     z-index: 1;
 }
+.carousel-view {
+}
 .owl-carousel {
     padding-top: 160px;
     position: relative;
 }
 .owl-carousel .item {
-    width: 300px;
+    max-width: 300px;
     margin-left: 10px;
 }
 .owl-carousel .item img {
     height: 100%;
     object-fit: cover;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    position: relative;
+    font-size: 4rem;
+    top: 20px;
+    transform: translateY(-70%);
+}
+.owl-carousel .owl-nav button.owl-next {
+    right: -2rem;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    left: -2rem;
 }
 
 #myBtn {
@@ -489,7 +539,62 @@ body {
     border-radius: 15px;
     font-size: 28px;
   }
-  
 #myBtn:hover {
     background-color: #aee1dd;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 185px;
+}
+.contact-title {
+    display: flex;
+}
+.img2 img {
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+.contact-inputs {
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid #5991a1;
+    padding-left: 12px;
+    font-family: "Itim", serif;
+}
+.contact-form textarea {
+    height: 240px;
+    border: 3px solid #5991a1;
+    padding-top: 10px;
+    resize: none;
+}
+.contact-inputs::placeholder {
+    font-size: 16px;
+    color: #83b7c5;
+}
+.contact-form button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: "Itim", serif;;
+    font-size: 18px;
+    color: #5991a1;
+    gap: 8px;
+    border: 3px solid #5991a1;
+    border-radius: 10px;
+    background-color: #9ddeda;
+    -webkit-filter: drop-shadow(2px 2px 2px #5991a1);
+    filter: drop-shadow(2px 2px 2px #5991a1);
+    cursor: pointer;
+}
+button :hover {
+    transform: scale(1.1);
+    z-index: 1;
 }
