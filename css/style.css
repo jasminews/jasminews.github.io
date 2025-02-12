@@ -379,7 +379,7 @@ body {
     margin-top: 280px;
     margin-left: 135px;
 }
-.carousel-view h1 {
+.swiper-container h1 {
     font-family: "Itim", serif;
     color: #5d69bd;
     font-size: 44px;
@@ -500,31 +500,30 @@ body {
     transform: scale(1.05);
     z-index: 1;
 }
-.carousel-view {
+.swiper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
 }
-.owl-carousel {
-    padding-top: 160px;
-    position: relative;
-}
-.owl-carousel .item {
-    max-width: 300px;
-    margin-left: 10px;
-}
-.owl-carousel .item img {
+
+.swiper-slide img {
+    display: block;
+    margin-top: 160px;
+    margin-bottom: 36px;
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
-    position: relative;
-    font-size: 4rem;
-    top: 20px;
-    transform: translateY(-70%);
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: 0;
+    height: 40px;
 }
-.owl-carousel .owl-nav button.owl-next {
-    right: -2rem;
+.swiper-scrollbar-drag {
+    background: none;
 }
-.owl-carousel .owl-nav button.owl-prev {
-    left: -2rem;
+.swiper-scrollbar {
+    cursor: pointer;
 }
 
 #myBtn {
