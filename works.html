@@ -95,6 +95,8 @@
         <div id="works2a">
             <div class="swiper-container">
                 <h1> HIMJA Instagram Posts </h1>
+                <a class="prev prev3" onclick="plusSlides(-1, 2)">❮</a>
+                <a class="next next3" onclick="plusSlides(1, 2)">❯</a>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -198,12 +200,13 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 30,
+            slidesPerView: 2.3,
+            centeredSlides: true,
+            spaceBetween: 55,
             loop:true,
             nav:true,
             autoplay: true,
-            autoplayTimeout: 10000,
+            autoplayTimeout: 15000,
             scrollbar: {
                 el: '.swiper-scrollbar',
                 draggable: true,
