@@ -328,19 +328,6 @@ body {
     user-select: none;
     margin: 90px 50px;
 }
-.prev3, .next3 {
-    cursor: pointer;
-    position: absolute;
-    width: auto;
-    padding: 18px;
-    color: #b5e8e4;
-    background-color: #5d69bd;
-    font-weight: bold;
-    font-size: 22px;
-    border-radius: 20px;
-    user-select: none;
-    margin: 360px 50px;
-}
 .next {
     right: 0;
 }
