@@ -130,7 +130,14 @@ body {
     .return {
         text-align: center;
         margin-top: -130px;
-    }   
+    }
+    .webs {
+        text-align: center;
+        margin-top: 145px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 .disc h1 {
     font-family: "Itim", serif;
@@ -462,13 +469,6 @@ body {
 .slideshow-container3 {
     text-align: center;
     margin-top: 20px;
-}
-.webs {
-    text-align: center;
-    margin-top: 145px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
 }
 .resto img {
     margin-left: 120px;
