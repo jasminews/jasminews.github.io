@@ -146,7 +146,7 @@
     .notice h2 {
         color: #5991a1;
         font-family: "Itim", serif;
-        font-size: 30%;
+        font-size: 70%;
         text-align: justify;
         margin: 2% 0 0 11%;
     }
@@ -169,7 +169,7 @@
     }
     .profile img {
         max-width: 70%;
-        margin-top: 4%;
+        margin-top: 5%;
     }
     .profile :hover {
         transform: scale(1.15);
