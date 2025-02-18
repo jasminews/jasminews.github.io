@@ -129,9 +129,9 @@
         font-size: 2%;
         text-align: justify;
         position: absolute;
-        margin-top: 38%;
+        margin-top: 34%;
         margin-left: 3%;
-        max-width: 34%;
+        max-width: 120px;
     }
     .disc a:link {
         color: #ffebca;
@@ -146,7 +146,7 @@
     .notice h2 {
         color: #5991a1;
         font-family: "Itim", serif;
-        font-size: 10%;
+        font-size: 30%;
         text-align: justify;
         margin: 2% 0 0 11%;
     }
@@ -301,7 +301,7 @@
         border-radius: 50%;
         display: inline-block;
         transition: background-color 0.6s ease;
-        margin-top: 52%;
+        margin-top: 53%;
     }
     .dot2 {
         cursor: pointer;
@@ -377,7 +377,7 @@
         text-justify: inter-word;
         justify-content: space-between;
         position: absolute;
-        margin-top: 29%;
+        margin-top: 30%;
         margin-left: 16%;
     }
     .swiper-container h1 {
@@ -462,7 +462,7 @@
     }
     .mySlides1 img  {
         position: absolute;
-        top: 51%;
+        top: 52%;
         left: 0;
         right: 0;
         width: 69%;
@@ -490,7 +490,7 @@
         justify-content: space-between;
     }
     .webs img {
-        margin-top: 28%;
+        margin-top: 32%;
         max-width: 65%;
     }
     .resto img {
@@ -551,7 +551,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        padding-top: 17%;
+        padding-top: 18%;
     }
     .submit img {
         width: 40%;
