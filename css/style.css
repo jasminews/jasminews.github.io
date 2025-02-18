@@ -127,9 +127,24 @@ body {
     .sns img {
         max-width: 100px;
     }
+    .sns-c {
+        text-align: center;
+        padding-top: 110px;
+        position: relative;
+        display: flex;
+        margin-left: 460px;
+    }
+    .sns-c img {
+        max-width: 90px;
+        margin: 0 12px;
+    }
     .return {
         text-align: center;
         margin-top: -130px;
+    }
+    .p-part2 img {
+        max-height: 520px;
+        margin: 160px 0 0 140px;
     }
     .webs {
         text-align: center;
@@ -137,6 +152,62 @@ body {
         position: relative;
         display: flex;
         justify-content: space-between;
+    }
+    .pouch img {
+        margin-top: 70px;
+    }
+    .pouch h2 {
+        font-family: "Itim", serif;
+        color: #5d69bd;
+        background-color: hwb(0 100% 0% / 0.688);
+        font-size: 38px;
+        font-weight: bold;
+        text-align: justify;
+        text-justify: inter-word;
+        justify-content: space-between;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 110px;
+        max-width: 770px;
+        padding: 20px;
+    }
+    .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 190px;
+    }
+    .contact-form button {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        border: 3px solid #5991a1;
+        border-radius: 10px;
+        background-color: #9ddeda;
+        -webkit-filter: drop-shadow(2px 2px 2px #5991a1);
+        filter: drop-shadow(2px 2px 2px #5991a1);
+        cursor: pointer;
+    }
+    .contact-form textarea {
+        height: 240px;
+        border: 3px solid #5991a1;
+        padding-top: 10px;
+        resize: none;
+    }
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #76b9b5;
+        color: #fcf7e7;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 15px;
+        font-size: 28px;
     }
 }
 .disc h1 {
@@ -164,7 +235,7 @@ body {
     font-family: "Itim", serif;
     font-size: 24px;
     text-align: justify;
-    margin: 30px 0 0 150px;
+    margin: 25px 0 0 150px;
 }
 .notice h2 a:link {
     color: #e0c28e;
@@ -190,7 +261,6 @@ body {
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
 }
-  
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -203,17 +273,6 @@ body {
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-.sns-c {
-    text-align: center;
-    padding-top: 100px;
-    position: relative;
-    display: flex;
-    margin-left: 460px;
-}
-.sns-c img {
-    max-width: 90px;
-    margin: 0 12px;
 }
 
 .text-p {
@@ -238,10 +297,6 @@ body {
     font-family: "Itim", serif;
     position: absolute;
     display: flex;
-}
-.p-part2 img {
-    max-height: 520px;
-    margin: 160px 0 0 140px;
 }
 .pp2 {
     margin-top: 222px;
@@ -289,6 +344,7 @@ body {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    margin-top: 520px;
 }
 .dot2 {
     cursor: pointer;
@@ -299,6 +355,7 @@ body {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    margin-top: 222px;
 }
 .dot1:hover, .dot1.active {
     background-color: #76b9b5;
@@ -401,24 +458,6 @@ body {
     position: absolute;
     margin-left: 135px;
 }
-.pouch h2 {
-    font-family: "Itim", serif;
-    color: #5d69bd;
-    background-color: hwb(0 100% 0% / 0.688);
-    font-size: 38px;
-    font-weight: bold;
-    text-align: justify;
-    text-justify: inter-word;
-    justify-content: space-between;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-left: 110px;
-    max-width: 770px;
-    padding: 20px;
-}
-.pouch img {
-    margin-top: 70px;
-}
 .personal h1 {
     font-family: "Itim", serif;
     color: #e48888;
@@ -440,21 +479,18 @@ body {
 
 .mySlides1 {
     display: none;
-    height: 515px;
 }
 .mySlides2 {
     display: none;
-    height: 220px;
 }
 .mySlides1 img  {
     position: absolute;
-    top: 275px;
+    top: 280px;
     left: 0;
     right: 0;
     width: 720px;
     margin: auto;
     -webkit-filter: drop-shadow(2px 2px 2px #5d69bd);
-    filter: drop-shadow(5px 5px 5px #5d689bd);
 }
 .mySlides2 img  {
     position: absolute;
@@ -464,7 +500,6 @@ body {
     width: 720px;
     margin: auto;
     -webkit-filter: drop-shadow(2px 2px 2px #de7474);
-    filter: drop-shadow(5px 5px 5px #de7474);
 }
 .slideshow-container3 {
     text-align: center;
@@ -505,43 +540,14 @@ body {
 .swiper-scrollbar-drag {
     background: none;
 }
-
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: #76b9b5;
-    color: #fcf7e7;
-    cursor: pointer;
-    padding: 20px;
-    border-radius: 15px;
-    font-size: 28px;
-  }
 #myBtn:hover {
     background-color: #aee1dd;
-}
-.contact-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: 185px;
-}
-.contact-title {
-    display: flex;
-}
-.img2 img {
-    margin-top: 22px;
-    margin-left: 22px;
 }
 .contact-form {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 15px;
+    gap: 12px;
 }
 .contact-inputs {
     width: 700px;
@@ -551,28 +557,11 @@ body {
     padding-left: 12px;
     font-family: "Itim", serif;
 }
-.contact-form textarea {
-    height: 240px;
-    border: 3px solid #5991a1;
-    padding-top: 10px;
-    resize: none;
+.contact-inputs:focus {
+    outline: none !important;
+    border: 3px solid #e0c28e;
 }
 .contact-inputs::placeholder {
     font-size: 16px;
     color: #83b7c5;
-}
-.contact-form button {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    font-family: "Itim", serif;;
-    font-size: 18px;
-    color: #5991a1;
-    gap: 8px;
-    border: 3px solid #5991a1;
-    border-radius: 10px;
-    background-color: #9ddeda;
-    -webkit-filter: drop-shadow(2px 2px 2px #5991a1);
-    filter: drop-shadow(2px 2px 2px #5991a1);
-    cursor: pointer;
 }
