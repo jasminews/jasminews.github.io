@@ -99,6 +99,16 @@
         width: 45%;
         margin-top: 2%;
     }
+    .wm-home {
+        position: absolute;
+        margin: 8px 0 0 12px;
+    }
+    .wm-hoka {
+        position: absolute;
+        width: 50%;
+        margin: 8px 0 0 12px;
+        z-index: 99;
+    }
     .top {
         position: absolute;
         max-width: 425px;
