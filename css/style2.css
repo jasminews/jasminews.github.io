@@ -462,13 +462,6 @@
         max-width: 80%;
         margin: 3%;
     }
-
-    .mySlides1 {
-        display: none;
-    }
-    .mySlides2 {
-        display: none;
-    }
     .mySlides1 img  {
         position: absolute;
         top: 52%;

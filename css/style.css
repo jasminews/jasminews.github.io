@@ -484,13 +484,6 @@ body {
     max-width: 800px;
     margin: 20px;
 }
-
-.mySlides1 {
-    display: none;
-}
-.mySlides2 {
-    display: none;
-}
 .mySlides1 img  {
     position: absolute;
     top: 280px;
