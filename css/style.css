@@ -24,32 +24,31 @@ body {
     margin-right: auto;
 }
 #home {
-    background: url(bghome1.png);
+    background: url(bg-home1.png);
     height: 555px;
-    text-align: center;
 }
 #profile {
-    background: url(bghome2.png);
+    background: url(bg-home2.png);
     height: 620px;
     text-align: center;
 }
 #works {
-    background: url(bghome3.png);
+    background: url(bg-home3.png);
     height: 877px;
     text-align: center;
 }
 #contact {
-    background: url(bghome4.png);
+    background: url(bg-home4.png);
     height: 613px;
     text-align: center;
 }
 
 #profile-part1 {
-    background: url(profile-bg1.png);
+    background: url(bg-profile1.png);
     height: 784px;
 }
 #profile-part2 {
-    background: url(profile-bg2.png);
+    background: url(bg-profile2.png);
     height: 1088px;
 }
 #works1a {
@@ -99,11 +98,11 @@ body {
     margin-top: 40px;
 }
 @media screen and (min-width: 431px) {
-    .wm-home {
+    .wm-home img {
         position: absolute;
         margin: 8px 0 0 12px;
     }
-    .wm-hoka {
+    .wm-hoka img {
         position: absolute;
         margin: 8px 0 0 12px;
         z-index: 99;
